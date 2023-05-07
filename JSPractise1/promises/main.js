@@ -106,18 +106,18 @@ import { BASE_URL } from "./api.js";
 // });
 
 //patch speacial filds
-let obj3={
-  companyName: "odeA2cadejjjjjjjjjmy",
-  contactName: "codeedusx",
-}
-function updateDataById(id, obj) {
-  fetch(`https://northwind.vercel.app/api/customers/${id}`, {
-    method: "PUT",
-    headers: {
-      "Content-type": "application/json",
-    },
-    body: JSON.stringify(obj),
-  }).then((data) => data.json());
-}
+// let obj3={
+//   companyName: "odeA2cadejjjjjjjjjmy",
+//   contactName: "codeedusx",
+// }
+// function updateDataById(id, obj) {
+//   fetch(`https://northwind.vercel.app/api/customers/${id}`, {
+//     method: "PUT",
+//     headers: {
+//       "Content-type": "application/json",
+//     },
+//     body: JSON.stringify(obj),
+//   }).then((data) => data.json());
+// }
 
-updateDataById("AROUT", obj3);
+// updateDataById("AROUT", obj3);
