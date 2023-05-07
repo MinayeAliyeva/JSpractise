@@ -24,13 +24,13 @@ function drawData() {
 }
 drawData();
 //DELETE
-// //one way to delete element
-// function deleteCard(id) {
-//   fetch(`https://northwind.vercel.app/api/customers/${id}`, {
-//     method: "DELETE",
-//   });
-//   document.querySelector(`#${id}`).closest("span").remove();
-// }
+//one way to delete element
+function deleteCard(id) {
+  fetch(`https://northwind.vercel.app/api/customers/${id}`, {
+    method: "DELETE",
+  });
+  document.querySelector(`#${id}`).closest("span").remove();
+}
 
 // //2 method2
 
