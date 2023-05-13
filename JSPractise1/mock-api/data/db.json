@@ -1,0 +1,19 @@
+{
+  "students": [
+    {
+      "firstName": "Minaya",
+      "lastName": "Aliyeva",
+      "score":88
+    },
+    {
+      "firstName": "Yaqut",
+      "lastName": "Verdiyeva",
+      "score":66
+    },
+    {
+      "firstName": "Aysun",
+      "lastName": "Hesenova",
+      "score":66
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+    "students":[
+    {
+        "firstName":"Ahad",
+        "lastName":"Hajivey"
+    },
+    {
+        "firstName":"Yaqut",
+        "lastName":"Verdiyeva"
+    },
+    {
+        "firstName":"Aysun",
+        "lastName":"Hesenova"
+    }
+
+    ]
+}
