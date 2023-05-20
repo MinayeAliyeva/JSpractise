@@ -1,0 +1,41 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+body {
+  font-family: monospace;
+  font-size: 2rem;
+  background-color: #111;
+  color: #fff;
+  padding: 1rem;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.underline-hover-effect {
+  /* display: inline; */
+  position: relative;
+  padding-bottom: 0.25rem;
+}
+.underline-hover-effect::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 2px;
+  background-color: transparent;
+}
+.underline-hover-effect:hover::before {
+  background-color: red;
+}
+ul li a {
+  text-decoration: none;
+  color: inherit;
+}
