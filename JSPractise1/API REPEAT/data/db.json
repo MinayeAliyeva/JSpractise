@@ -1,0 +1,18 @@
+{
+  "students": [
+    {
+      "userName": "Claire Buckley",
+      "Surname": "Luna",
+      "Age": "68",
+      "city": "Shamkir",
+      "id": 1
+    },
+    {
+      "userName": "Faith Craig",
+      "Surname": "Wilder",
+      "Age": "18",
+      "city": "Ganja",
+      "id": 2
+    }
+  ]
+}
